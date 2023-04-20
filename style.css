@@ -146,7 +146,7 @@ nav > a {
  /* ロゴマーク */
  main {
     width: 100;
-    height: 100vh;
+    height: 50vh;
 
     text-align: center;
     align-items: center;
@@ -395,3 +395,20 @@ h1 {
   text-decoration: none;
 }
 
+/* 横幅が767pxまでの場合 */
+@media (max-width: 767px) {
+    .works {
+        width: 70%; 
+        text-align: center;
+        padding-bottom: 120px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .profile-img {
+        display: none;
+    }
+
+}
