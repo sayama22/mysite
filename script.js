@@ -32,4 +32,19 @@ $(function(){
     $(this).next().show(300);
     $(this).next().next().show(400);
     });
+
+    // 追加
+      // Worksの画像をクリックしたときにモーダルで拡大表示する
+  $('.works img').click(function () {
+    const imgSrc = $(this).attr('src');
+    $('.big-img').attr('src', imgSrc);
+    $('.modal').fadeIn();
+    return false
+  });
+
+  // 閉じるボタンをクリックしたときにモーダルを閉じる
+  $('.close-btn').click(function () {
+    $('.modal').fadeOut();
+    return false
+  });
 });
