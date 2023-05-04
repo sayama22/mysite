@@ -196,8 +196,9 @@ h1 {
 
 .works  {
     width: 25%;
-    margin-bottom: 230px;
+    margin: 0 30px 230px 30px;
     height: 50px;
+
 }
 
 .works > h2 {
@@ -227,7 +228,7 @@ h1 {
 
 .skill {
     padding-top: 50px;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
 
 }
 
@@ -276,12 +277,6 @@ h1 {
 
 }
 
-#profile {
-    padding-top: 80px;
-    margin-bottom: 30px;
-
-}
-
 .profile-top {
     display: flex;
     flex-wrap: wrap;
@@ -296,8 +291,8 @@ h1 {
 
 .profile-img {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 10%;
+    height: 10%;
     border: 3px solid white;
     padding: 3px;
     margin-left: 30px;
